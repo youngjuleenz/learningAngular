@@ -1,0 +1,29 @@
+.heart{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 150px;
+}
+
+.topNumber{
+    font-size: 20px;
+}
+
+.heartImage{
+    height: 100px;
+    width: 90px; 
+
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.bottomNumber{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}

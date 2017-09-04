@@ -1,0 +1,28 @@
+.clover{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 150px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.cloverImage{
+    height: 100px;
+    width: 110px; 
+}
+
+.topNumber{
+    font-size: 20px;
+}
+
+.bottomNumber{
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+}

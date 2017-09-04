@@ -1,0 +1,29 @@
+.appSpade{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 150px;
+}
+
+.spadeImage{
+    height: 120px;
+    width: 100px; 
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.topNumber{
+    font-size: 20px;
+}
+
+.bottomNumber{
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;  
+
+}

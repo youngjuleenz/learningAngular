@@ -1,0 +1,28 @@
+.diamond{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 150px;
+}
+
+.topNumber{
+    font-size: 20px;
+}
+
+.diamondImage{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    height: 120px;
+    width: 100px; 
+}
+
+.bottomNumber{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
