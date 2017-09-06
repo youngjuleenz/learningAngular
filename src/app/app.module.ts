@@ -6,6 +6,7 @@ import { SpadeComponent } from './spade/spade.component';
 import { DiamondComponent } from './diamond/diamond.component';
 import { CloverComponent } from './clover/clover.component';
 import { HeartComponent } from './heart/heart.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { HeartComponent } from './heart/heart.component';
     SpadeComponent,
     DiamondComponent,
     CloverComponent,
-    HeartComponent
+    HeartComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule

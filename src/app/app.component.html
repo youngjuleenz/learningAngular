@@ -1,8 +1,12 @@
 <div class = "appComponent">
   <h1> APP-ROUTE </h1>
-  <app-spade *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}"></app-spade>
+  <!-- <app-spade *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}"></app-spade>
   <app-diamond *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}"></app-diamond>
   <app-clover *ngFor = "let cardNumber of cardNumbers" number= "{{ cardNumber }}"></app-clover>
-  <app-heart *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}"></app-heart>
+  <app-heart *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}"></app-heart> -->
 
+  <app-card *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}" spade = "true"></app-card>
+  <app-card *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}" diamond = "true"></app-card>
+  <app-card *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}" heart = "true"></app-card>
+  <app-card *ngFor = "let cardNumber of cardNumbers" number = "{{ cardNumber }}" clover = "true"></app-card>
 </div>
